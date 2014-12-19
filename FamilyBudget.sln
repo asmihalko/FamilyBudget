@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBudget", "FamilyBudget\FamilyBudget.csproj", "{A826538C-7695-43B6-B31E-2BD6D82A89B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{39815363-8DA6-411F-A3C3-93E97C78E621}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFamilyBudget", "TestFamilyBudget\TestFamilyBudget.csproj", "{8BD4E6BB-F232-452C-BDD3-6E29E516AEA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A826538C-7695-43B6-B31E-2BD6D82A89B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A826538C-7695-43B6-B31E-2BD6D82A89B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A826538C-7695-43B6-B31E-2BD6D82A89B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A826538C-7695-43B6-B31E-2BD6D82A89B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD4E6BB-F232-452C-BDD3-6E29E516AEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD4E6BB-F232-452C-BDD3-6E29E516AEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD4E6BB-F232-452C-BDD3-6E29E516AEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD4E6BB-F232-452C-BDD3-6E29E516AEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

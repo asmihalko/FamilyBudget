@@ -1,0 +1,36 @@
+﻿<Window x:Class="FamilyBudget.AddEditAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ДОбавление и редактирование аккаунта" Height="200" Width="500">
+    <Grid Background="#FFE6DFD4">
+        <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Name="textBlockWithdraw" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" Foreground="#FF4D2E07"
+                           Margin="50 30 0 0">Название счета</TextBlock>
+            <TextBox Name="textBoxAccountName" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" 
+                      Foreground="#FF4D2E07" Margin="15 30 0 0" Padding="10 8 0 0" VerticalAlignment="Top"
+                                     Width="200" Height="35" Background="White" BorderBrush="#FF786F63"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="SaveChangesButton" Width="150" Height="35" Margin="70 30 0 0" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" 
+                    Foreground="#FF4D2E07" VerticalAlignment="Top" Padding="0 -4 0 0" Click="SaveChangesButton_Click">
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Margin="0 0 5 0" Width="20" Source="Resources\save.png" />
+                        <TextBlock Padding="0 4 0 0">Ок</TextBlock>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <Button Height="35" Width="150" Margin="70 30 0 0" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" Foreground="#FF4D2E07" VerticalAlignment="Top"
+                    Name="CancelButton" Click="CancelButton_Click">
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Margin="0 0 5 0" Source="Resources\delete.png" />
+                        <TextBlock Padding="0 4 0 0">Отмена</TextBlock>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+        </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
